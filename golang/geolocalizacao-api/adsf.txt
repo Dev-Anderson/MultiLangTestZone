@@ -1,0 +1,1055 @@
+{
+   "plus_code" : 
+   {
+      "compound_code" : "3HCW+5R7 Cascavel, State of Paraná, Brazil",
+      "global_code" : "58783HCW+5R7"
+   },
+   "results" : 
+   [
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "953",
+               "short_name" : "953",
+               "types" : 
+               [
+                  "street_number"
+               ]
+            },
+            {
+               "long_name" : "Rua Cicilia Paesi",
+               "short_name" : "R. Cicilia Paesi",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Morumbi",
+               "short_name" : "Morumbi",
+               "types" : 
+               [
+                  "political",
+                  "sublocality",
+                  "sublocality_level_1"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "85817-849",
+               "short_name" : "85817-849",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            }
+         ],
+         "formatted_address" : "R. Cicilia Paesi, 953 - Morumbi, Cascavel - PR, 85817-849, Brazil",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : -24.929462,
+               "lng" : -53.4028851
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9281130197085,
+                  "lng" : -53.4015361197085
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9308109802915,
+                  "lng" : -53.40423408029149
+               }
+            }
+         },
+         "place_id" : "ChIJi1WDt6fU85QRjaXI3J9r0Z8",
+         "plus_code" : 
+         {
+            "compound_code" : "3HCW+6R Morumbi, Cascavel - PR, Brazil",
+            "global_code" : "58783HCW+6R"
+         },
+         "types" : 
+         [
+            "street_address"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "137",
+               "short_name" : "137",
+               "types" : 
+               [
+                  "street_number"
+               ]
+            },
+            {
+               "long_name" : "Rua Bento Tolentino",
+               "short_name" : "R. Bento Tolentino",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Jardim Belmonte",
+               "short_name" : "Jardim Belmonte",
+               "types" : 
+               [
+                  "political",
+                  "sublocality",
+                  "sublocality_level_1"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "85817-848",
+               "short_name" : "85817-848",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            }
+         ],
+         "formatted_address" : "R. Bento Tolentino, 137 - Jardim Belmonte, Cascavel - PR, 85817-848, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9298215,
+                  "lng" : -53.40309509999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9300407,
+                  "lng" : -53.4032699
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9299498,
+               "lng" : -53.4031983
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9285821197085,
+                  "lng" : -53.4018335197085
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9312800802915,
+                  "lng" : -53.4045314802915
+               }
+            }
+         },
+         "place_id" : "ChIJLeuis6fU85QRrVUCEJium-o",
+         "types" : 
+         [
+            "premise"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "934",
+               "short_name" : "934",
+               "types" : 
+               [
+                  "street_number"
+               ]
+            },
+            {
+               "long_name" : "Rua Cicilia Paesi",
+               "short_name" : "R. Cicilia Paesi",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Morumbi",
+               "short_name" : "Morumbi",
+               "types" : 
+               [
+                  "political",
+                  "sublocality",
+                  "sublocality_level_1"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "85817-849",
+               "short_name" : "85817-849",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            }
+         ],
+         "formatted_address" : "R. Cicilia Paesi, 934 - Morumbi, Cascavel - PR, 85817-849, Brazil",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : -24.9293152,
+               "lng" : -53.4026538
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.92796621970849,
+                  "lng" : -53.40130481970849
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9306641802915,
+                  "lng" : -53.40400278029149
+               }
+            }
+         },
+         "place_id" : "ChIJ_xu0bRTV85QRpFlOeGlXXrE",
+         "plus_code" : 
+         {
+            "compound_code" : "3HCW+7W Morumbi, Cascavel - PR, Brazil",
+            "global_code" : "58783HCW+7W"
+         },
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "3HCW+5R",
+               "short_name" : "3HCW+5R",
+               "types" : 
+               [
+                  "plus_code"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "State of Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "3HCW+5R Cascavel, State of Paraná, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9295,
+                  "lng" : -53.40287499999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.929625,
+                  "lng" : -53.403
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.929597,
+               "lng" : -53.402942
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.92821351970849,
+                  "lng" : -53.4015885197085
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9309114802915,
+                  "lng" : -53.4042864802915
+               }
+            }
+         },
+         "place_id" : "GhIJr3WpEfrtOMARqBd8mpOzSsA",
+         "plus_code" : 
+         {
+            "compound_code" : "3HCW+5R Cascavel, State of Paraná, Brazil",
+            "global_code" : "58783HCW+5R"
+         },
+         "types" : 
+         [
+            "plus_code"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "211-1",
+               "short_name" : "211-1",
+               "types" : 
+               [
+                  "street_number"
+               ]
+            },
+            {
+               "long_name" : "Rua Bento Tolentino",
+               "short_name" : "R. Bento Tolentino",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Morumbi",
+               "short_name" : "Morumbi",
+               "types" : 
+               [
+                  "political",
+                  "sublocality",
+                  "sublocality_level_1"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "85817-848",
+               "short_name" : "85817-848",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            }
+         ],
+         "formatted_address" : "R. Bento Tolentino, 211-1 - Morumbi, Cascavel - PR, 85817-848, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9293566,
+                  "lng" : -53.40199579999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.930204,
+                  "lng" : -53.4042407
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9297804,
+               "lng" : -53.4031183
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9284313197085,
+                  "lng" : -53.4017692697085
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9311292802915,
+                  "lng" : -53.40446723029149
+               }
+            }
+         },
+         "place_id" : "ChIJIWZWsafU85QRqobsCZ5wlLA",
+         "types" : 
+         [
+            "route"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "85817-846",
+               "short_name" : "85817-846",
+               "types" : 
+               [
+                  "postal_code"
+               ]
+            },
+            {
+               "long_name" : "Rua Armando Zanata",
+               "short_name" : "R. Armando Zanata",
+               "types" : 
+               [
+                  "route"
+               ]
+            },
+            {
+               "long_name" : "Morumbi",
+               "short_name" : "Morumbi",
+               "types" : 
+               [
+                  "political",
+                  "sublocality",
+                  "sublocality_level_1"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "R. Armando Zanata - Morumbi, Cascavel - PR, 85817-846, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.92784,
+                  "lng" : -53.40140539999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9316594,
+                  "lng" : -53.4068052
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9298591,
+               "lng" : -53.4042745
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.92784,
+                  "lng" : -53.40140539999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9316594,
+                  "lng" : -53.4068052
+               }
+            }
+         },
+         "place_id" : "ChIJ5aw0BqfU85QR_elhApPH-t4",
+         "types" : 
+         [
+            "postal_code"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "Morumbi",
+               "short_name" : "Morumbi",
+               "types" : 
+               [
+                  "political",
+                  "sublocality",
+                  "sublocality_level_1"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "Morumbi, Cascavel - PR, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9117223,
+                  "lng" : -53.38451569999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9560679,
+                  "lng" : -53.4177954
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9306334,
+               "lng" : -53.3960062
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9117223,
+                  "lng" : -53.38451569999999
+               },
+               "southwest" : 
+               {
+                  "lat" : -24.9560679,
+                  "lng" : -53.4177954
+               }
+            }
+         },
+         "place_id" : "ChIJZaYMY6_U85QR5pa4lzKmQvg",
+         "types" : 
+         [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "locality",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "State of Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "Cascavel, State of Paraná, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9007038,
+                  "lng" : -53.37348530000001
+               },
+               "southwest" : 
+               {
+                  "lat" : -25.0268377,
+                  "lng" : -53.5712181
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9541715,
+               "lng" : -53.480283
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.9007038,
+                  "lng" : -53.37348530000001
+               },
+               "southwest" : 
+               {
+                  "lat" : -25.0268377,
+                  "lng" : -53.5712181
+               }
+            }
+         },
+         "place_id" : "ChIJYU33xx7U85QRvF9a4OwyrOs",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_4",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "Cascavel, PR, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.8956992,
+                  "lng" : -53.3876459
+               },
+               "southwest" : 
+               {
+                  "lat" : -25.0268672,
+                  "lng" : -53.5714896
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9627725,
+               "lng" : -53.4554195
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.8956992,
+                  "lng" : -53.3876459
+               },
+               "southwest" : 
+               {
+                  "lat" : -25.0268672,
+                  "lng" : -53.5714896
+               }
+            }
+         },
+         "place_id" : "ChIJpXNisqfW85QRNC324xwQ4yQ",
+         "types" : 
+         [
+            "administrative_area_level_4",
+            "political"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "Cascavel",
+               "short_name" : "Cascavel",
+               "types" : 
+               [
+                  "administrative_area_level_2",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "State of Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "Cascavel - State of Paraná, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.7430704,
+                  "lng" : -53.0720853
+               },
+               "southwest" : 
+               {
+                  "lat" : -25.3718873,
+                  "lng" : -53.723781
+               }
+            },
+            "location" : 
+            {
+               "lat" : -24.9541356,
+               "lng" : -53.48024059999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -24.7430704,
+                  "lng" : -53.0720853
+               },
+               "southwest" : 
+               {
+                  "lat" : -25.3718873,
+                  "lng" : -53.723781
+               }
+            }
+         },
+         "place_id" : "ChIJKXxQ92R_8ZQRPCQllDkgEvo",
+         "types" : 
+         [
+            "administrative_area_level_2",
+            "political"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "State of Paraná",
+               "short_name" : "PR",
+               "types" : 
+               [
+                  "administrative_area_level_1",
+                  "political"
+               ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "State of Paraná, Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -22.5162951,
+                  "lng" : -48.0235374
+               },
+               "southwest" : 
+               {
+                  "lat" : -26.717122,
+                  "lng" : -54.6193049
+               }
+            },
+            "location" : 
+            {
+               "lat" : -25.2520888,
+               "lng" : -52.0215415
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : -22.5162951,
+                  "lng" : -48.0235374
+               },
+               "southwest" : 
+               {
+                  "lat" : -26.717122,
+                  "lng" : -54.6193049
+               }
+            }
+         },
+         "place_id" : "ChIJnWK4MJQL25QRYfDOY1D9k-g",
+         "types" : 
+         [
+            "administrative_area_level_1",
+            "political"
+         ]
+      },
+      {
+         "address_components" : 
+         [
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : 
+               [
+                  "country",
+                  "political"
+               ]
+            }
+         ],
+         "formatted_address" : "Brazil",
+         "geometry" : 
+         {
+            "bounds" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 5.2700477,
+                  "lng" : -28.650543
+               },
+               "southwest" : 
+               {
+                  "lat" : -34.0891,
+                  "lng" : -73.982817
+               }
+            },
+            "location" : 
+            {
+               "lat" : -14.235004,
+               "lng" : -51.92528
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 5.2700477,
+                  "lng" : -28.650543
+               },
+               "southwest" : 
+               {
+                  "lat" : -34.0891,
+                  "lng" : -73.982817
+               }
+            }
+         },
+         "place_id" : "ChIJzyjM68dZnAARYz4p8gYVWik",
+         "types" : 
+         [
+            "country",
+            "political"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
