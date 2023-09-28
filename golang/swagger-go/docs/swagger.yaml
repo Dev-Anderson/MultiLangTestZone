@@ -1,0 +1,20 @@
+basePath: /api
+host: localhost:8080
+info:
+  contact: {}
+  description: Exemplo de API Swagger em Go
+  title: Minha API Swagger
+  version: "1.0"
+paths:
+  /hello:
+    get:
+      description: Retorna uma saudação simples
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Hello, world!
+          schema:
+            type: string
+      summary: Retorna uma saudação
+swagger: "2.0"

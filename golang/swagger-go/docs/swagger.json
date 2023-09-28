@@ -1,0 +1,30 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Exemplo de API Swagger em Go",
+        "title": "Minha API Swagger",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/api",
+    "paths": {
+        "/hello": {
+            "get": {
+                "description": "Retorna uma saudação simples",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Retorna uma saudação",
+                "responses": {
+                    "200": {
+                        "description": "Hello, world!",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
