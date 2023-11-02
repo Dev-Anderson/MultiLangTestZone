@@ -1,0 +1,6 @@
+api-simples-hostdb=localhost
+api-simples-portdb=5432
+api-simples-userdb=
+api-simples-passworddb=
+api-simples-dbname=teste
+api-simples-porthttp=8181

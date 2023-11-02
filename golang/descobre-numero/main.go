@@ -38,7 +38,7 @@ func main() {
 	possibilities := generatePossibilities(input)
 
 	batchSize := 1000 // Número máximo de números em cada arquivo
-
+	// batchSize := 3
 	for i := 0; i < len(possibilities); i += batchSize {
 		batch := possibilities[i:min(i+batchSize, len(possibilities))]
 		filename := fmt.Sprintf("output_%d.txt", i/batchSize+1)
