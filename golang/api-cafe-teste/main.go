@@ -1,6 +1,7 @@
 package main
 
 import (
+	"api-cafe/config"
 	"api-cafe/db"
 	"api-cafe/router"
 	"api-cafe/services"
@@ -19,7 +20,8 @@ type Application struct {
 	Models services.Models
 }
 
-var port = os.Getenv("PORT")
+// var port = os.Getenv("PORT")
+var port = os.Getenv("api-coffe-port")
 
 func (app *Application) Serve() error {
 	fmt.Println("API listening on port", port)
@@ -33,10 +35,13 @@ func (app *Application) Serve() error {
 }
 
 func main() {
-	var config Config
-	config.Port = port
+	config.SetEnv(".env")
+	fmt.Println(port)
+	var c Config
+	c.Port = port
 
-	dsn := os.Getenv("DSN")
+	// dsn := os.Getenv("DSN")
+	dsn := os.Getenv("api-coffe-dsn")
 	dbConn, err := db.ConnectPostgres(dsn)
 	if err != nil {
 		log.Fatal("Cannot connect to database", err)
@@ -45,7 +50,7 @@ func main() {
 	defer dbConn.DB.Close()
 
 	app := &Application{
-		Config: config,
+		Config: c,
 		Models: services.New(dbConn.DB),
 	}
 
