@@ -2,15 +2,12 @@ package main
 
 import (
 	"anderbank/database"
-	"anderbank/database/table"
-	"fmt"
+	"anderbank/hadler/server"
 )
 
 func main() {
-	db, err := database.ConnectDatabase()
-	if err != nil {
-		fmt.Println("Falha ao conectar com o banco de dados", err)
-	}
-	table.TableAccount(db)
-	table.TableUser(db)
+	database.ConnectDatabase()
+
+	s := server.NewServer()
+	s.Run()
 }

@@ -2,20 +2,26 @@ package database
 
 import (
 	"anderbank/config"
-	"database/sql"
+	"anderbank/schema"
 	"fmt"
 
-	_ "github.com/lib/pq"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
 )
 
-func ConnectDatabase() (*sql.DB, error) {
+var (
+	DB  *gorm.DB
+	err error
+)
+
+func ConnectDatabase() {
 	e := config.LoadEnv()
 
 	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s", e.Host, e.Port, e.User, e.Password, e.DBName)
-	db, err := sql.Open("postgres", dsn)
+	DB, err = gorm.Open(postgres.Open(dsn))
 	if err != nil {
 		panic(err)
 	}
 
-	return db, err
+	DB.AutoMigrate(&schema.User{}, &schema.Login{})
 }

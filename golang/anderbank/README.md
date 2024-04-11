@@ -14,11 +14,10 @@ Projeto para desenvolver um banco digital, apenas para estudos (Ainda nao esta p
 - Golang 
 - Posgres 
 - Gin 
-- SQL 
+- Gorm
 
-Vou utilizar o maximo de libs nativas
 
-## O que ainda falta
-- Corrigir o problema de criacao da tabela dentro do banco de dados 
-- Criar as rotas 
-- Adicionar logs
+Cadastro de usuario
+Nome 
+Email 
+Password
