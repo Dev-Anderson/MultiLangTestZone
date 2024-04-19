@@ -1,6 +1,7 @@
 package routes
 
 import (
+	"fiber-gorm/auth"
 	"fiber-gorm/models"
 	"fiber-gorm/repository"
 	"strconv"
@@ -10,6 +11,8 @@ import (
 
 func SetupRoutes(app *fiber.App) {
 	app.Get("/", home)
+	app.Post("/login", login)
+	app.Get("/protected", auth.VerifyToken, protectedRoute)
 
 	user := app.Group("/users")
 	user.Post("/", createUser)
@@ -77,4 +80,17 @@ func deleteUser(c *fiber.Ctx) error {
 func home(c *fiber.Ctx) error {
 	msg := map[string]string{"message": "API rodando"}
 	return c.JSON(msg)
+}
+
+func login(c *fiber.Ctx) error {
+	//logica de autenticacao
+	token, err := auth.GenerateToken("username")
+	if err != nil {
+		return err
+	}
+	return c.JSON(fiber.Map{"token": token})
+}
+
+func protectedRoute(c *fiber.Ctx) error {
+	return c.SendString("Rota protegida")
 }

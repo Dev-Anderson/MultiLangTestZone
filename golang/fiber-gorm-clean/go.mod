@@ -3,6 +3,7 @@ module fiber-gorm
 go 1.22.2
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gofiber/fiber/v2 v2.52.4
 	gorm.io/driver/postgres v1.5.7
 	gorm.io/gorm v1.25.9
