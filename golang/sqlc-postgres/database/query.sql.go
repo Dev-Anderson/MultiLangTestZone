@@ -147,18 +147,11 @@ insert into public.users (
 returning id, created_at, updated_at, deleted_at, name, email, password
 `
 
-
 type InsertUserParams struct {
-	Name     string
-	Email    string
-	Password string
+	Name     pgtype.Text
+	Email    pgtype.Text
+	Password pgtype.Text
 }
-
-// type InsertUserParams struct {
-// 	Name     pgtype.Text
-// 	Email    pgtype.Text
-// 	Password pgtype.Text
-// }
 
 func (q *Queries) InsertUser(ctx context.Context, arg InsertUserParams) (User, error) {
 	row := q.db.QueryRow(ctx, insertUser, arg.Name, arg.Email, arg.Password)
@@ -185,9 +178,9 @@ where id = $1
 
 type UpdateUserParams struct {
 	ID       int64
-	Name     string
-	Email    string 
-	Password string
+	Name     pgtype.Text
+	Email    pgtype.Text
+	Password pgtype.Text
 }
 
 func (q *Queries) UpdateUser(ctx context.Context, arg UpdateUserParams) error {
