@@ -3,6 +3,7 @@ package database
 import (
 	"fmt"
 	"gm/cmd/config"
+	"gm/pkg/models"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -22,6 +23,8 @@ func ConnectDBGorm() {
 	if err != nil {
 		panic("Falha ao conectar com o banco de dados: " + err.Error())
 	}
+
+	db.AutoMigrate(&models.User{}, &models.Cidade{}, &models.UF{})
 
 	DBGorm = db
 }
