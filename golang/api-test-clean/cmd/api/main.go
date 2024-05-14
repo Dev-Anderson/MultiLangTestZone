@@ -4,9 +4,10 @@ import (
 	"api-test/cmd/handler"
 	"api-test/internal/database"
 	"api-test/internal/repository"
-	"api-test/internal/routes"
 	"api-test/internal/services"
+	"api-test/pkg/routes"
 	"log"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
@@ -23,8 +24,8 @@ func main() {
 	router := gin.Default()
 	//config routes
 	routes.SetupRoutes(router, userHandler)
-	//Execute o servidro
-	if err := router.Run(":8080"); err != nil {
+	//Execute o servidr
+	if err := router.Run(os.Getenv("api-test-porthttp")); err != nil {
 		log.Fatal("Erro ao rodar o servidor: ", err)
 	}
 }
