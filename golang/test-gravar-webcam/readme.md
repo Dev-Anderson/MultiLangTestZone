@@ -1,3 +1,18 @@
+# Passo a passo 
+
+Instalacoes
+
+- Instalado o pkg-config
+ 
+"brew install pkg-config"
+
+- Instalando o opencv 
+
+"brew install opencv"
+
+- Verificando a instalacao
+"pkg-config --modversion opencv4"
+
 # Explicacao
 
 - Abrindo a camera: "gocv.OpenVideoCapture(0)" abre a camera padrao 
