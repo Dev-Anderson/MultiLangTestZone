@@ -34,8 +34,11 @@ migrate create -ext sql -dir migratoins -seq users
 ```
 migrate -path ./migrations -database "postgresql://user:password@localhost/dbname?sslmode=disable" -verbose up
 ```
+para remover a migraton
 
-
+```
+migrate -path ./migrations -database "postgresql://user:password@localhost/dbname?sslmode=disable" -verbose down
+```
 
 Embora para realizar o DOWN de forma automatizada seja um pouco complexo, ja que teriamos que ter alguma especie de controle de versao do app, o UP e simples 
 e como o migrate controla as versoes e so aplica o que ha de novo, podemos aplicar o up sempre que a app subir. 
