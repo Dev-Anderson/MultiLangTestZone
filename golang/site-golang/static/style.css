@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.85); /* Caixa preta semi-transparente */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+    z-index: 1; /* Coloca a caixa acima da chuva de letras */
+    width: 80%;
+    max-width: 800px;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+p, ul {
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Coloca a animação de fundo abaixo da caixa de conteúdo */
+    pointer-events: none;
+}
