@@ -1,0 +1,6 @@
+github.com/go-test/deep v1.1.0 h1:WOcxcdHcvdgThNXjw0t76K42FXTU7HpNQWHpA2HHNlg=
+github.com/go-test/deep v1.1.0/go.mod h1:5C2ZWiW0ErCdrYzpqxLbTX7MG14M9iiw8DgHncVwcsE=
+github.com/progrium/darwinkit v0.5.0 h1:SwchcMbTOG1py3CQsINmGlsRmYKdlFrbnv3dE4aXA0s=
+github.com/progrium/darwinkit v0.5.0/go.mod h1:PxQhZuftnALLkCVaR8LaHtUOfoo4pm8qUDG+3C/sXNs=
+github.com/progrium/darwinkit v0.5.1-0.20240715194340-61b9e31a12fa h1:tt/xmq4xYm+9iAWwvob4Z5P/9SOyeUl3aIXlxUh1RLo=
+github.com/progrium/darwinkit v0.5.1-0.20240715194340-61b9e31a12fa/go.mod h1:PxQhZuftnALLkCVaR8LaHtUOfoo4pm8qUDG+3C/sXNs=

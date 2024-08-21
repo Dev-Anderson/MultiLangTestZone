@@ -1,13 +1,2 @@
-Qtde total,Total pontos,Qtde backlog back,Soma backlog back,Qtde backlog front,Soma backlog front,Qtde Em andamento back,Soma em andamento back,Qtde Em andamento front,Soma Em andamento front
-51,165,10,38,3,11,5,18,12,"0      True
-1     False
-2      True
-3      True
-4     False
-      ...  
-73    False
-74    False
-75    False
-76    False
-77    False
-Length: 78, dtype: bool"
+Qtde tarefas,Total pontos,Qtde tarefas block,Total pontos block
+23,78.0,12,49
